@@ -150,7 +150,7 @@ GEM
 
 PLATFORMS
   ruby
-  
+
 
 DEPENDENCIES
   byebug
@@ -171,4 +171,4 @@ RUBY VERSION
    ruby 2.1.8p440
 
 BUNDLED WITH
-   1.13.7
+   1.13.6
