@@ -7,7 +7,7 @@ class Keyword < ActiveRecord::Base
      config.access_token_secret = "F8Zt062UdUCKjDKQKtbUF2BIBVtQZxKyuccXqf5HVoZrl"
     end
 
-    client.search(self.word, result_type: "recent").take(3).collect do |tweet|
+    client.search(self.word, result_type: "recent").take(5).collect do |tweet|
      "#{tweet.user.screen_name}: #{tweet.text}"
     end
 
